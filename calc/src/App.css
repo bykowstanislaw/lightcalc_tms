@@ -1,0 +1,27 @@
+.buttons{display: grid;
+  grid-template-columns: repeat(4,100px);
+  grid-template-rows: repeat(4,100px);
+  }
+.calculator{
+  width: 400px;
+  font-size: large;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;}
+
+input{width: 392px;
+      height: 120px;
+      text-align: right;
+      font-size:68px;
+    background-color: darkgrey;}
+button{
+  margin: 2px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+.lg{background-color: lightgray;
+    border:lightgray}
+.or{background-color: orange;
+    border: orange;}
+  
